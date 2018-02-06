@@ -2,8 +2,21 @@ header {
     height: 100px;
     background-color: lightgray;
 }
+nav {
+    width: 960px;
+    margin: 0px auto;
+}
+
+main {
+    width: 960px;
+    margin: 0px auto;
+}
 
 footer {
     height: 100px;
     background-color: lightgray;
+}
+footer div{
+    width: 960px;
+    margin: 0px auto;
 }
