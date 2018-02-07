@@ -83,9 +83,35 @@ main div p {
 }
 
  /* recipe */
+ table {
+     width: 800px;
+     height: 200px;
+     margin: auto;
+     background-color: rgb(243, 243, 220);
+     border-bottom: 1px solid;
+ }
+ 
+ th {
+     width: 15px;
+     border-bottom: 1px solid;
+ }
+
+ .emptyth {
+     border-right: double;
+     border-color: lightcoral;
+     border-bottom-color: black;
+ }
+ 
+ td {
+     padding-left: 50px;
+     vertical-align: bottom;
+     border-bottom: 1px solid;
+ }
+
  #recipe {
      margin-bottom: 30px;
  }
+ 
 /* author */
 #author img {
     width: 75px;
