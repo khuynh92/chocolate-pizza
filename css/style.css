@@ -1,10 +1,52 @@
 header {
     height: 100px;
-    background-color: lightgray;
 }
 nav {
     width: 960px;
     margin: 0px auto;
+}
+
+#rightSide, #leftSide {
+    display: inline-block;
+}
+/* left side of nav */
+#leftSide img {
+    float: left;
+    margin-right: 10px;
+    margin-top: 2px;
+}
+
+#leftSide {
+    margin-top: 20px;
+    width: 50%;
+}
+
+#leftSide h2 {
+    font-family: 'Yellowtail', cursive;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+#leftSide h4 {
+    font-family: monospace;
+    text-transform: uppercase;
+}
+
+/* right side of nav */
+
+#rightSide img {
+    display: inline-block;
+}
+
+#rightSide {
+    margin-top: 35px;
+    float: right;
+}
+
+
+#rss {
+    margin-left: 8px;
 }
 
 main {
@@ -19,4 +61,8 @@ footer {
 footer div{
     width: 960px;
     margin: 0px auto;
+}
+
+a {
+    text-decoration: none;
 }
