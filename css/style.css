@@ -6,7 +6,7 @@ nav {
     margin: 0px auto;
 }
 
-#rightSide, #leftSide {
+#rightSide, #leftSide, #author, button {
     display: inline-block;
 }
 /* left side of nav */
@@ -31,6 +31,7 @@ nav {
 #leftSide h4 {
     font-family: monospace;
     text-transform: uppercase;
+    color: rgb(126, 124, 124);
 }
 
 /* right side of nav */
@@ -49,18 +50,89 @@ nav {
     margin-left: 8px;
 }
 
+/* main article */
 main {
     width: 960px;
     margin: 0px auto;
 }
 
+main img {
+    width: 960px;
+}
+
+main header h1 {
+    font-family: 'Mukta Mahee', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+main header h5 {
+    text-transform: uppercase;
+    color: rgb(126, 124, 124);
+    font-family: 'Mukta Mahee', sans-serif;
+}
+
+main header span {
+    float: right;
+}
+
+main div p {
+    text-indent: 30px;
+    margin-bottom: 20px;
+    color: rgb(95, 92, 92);
+}
+
+ /* recipe */
+ #recipe {
+     margin-bottom: 30px;
+ }
+/* author */
+#author img {
+    width: 75px;
+    float: left;
+    margin-right: 20px;
+}
+
+#author h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(39, 37, 37);
+}
+
+#author h5 {
+    color: rgb(95, 92, 92);
+}
+/* footer */
 footer {
     height: 100px;
-    background-color: lightgray;
 }
 footer div{
     width: 960px;
-    margin: 0px auto;
+    margin: 50px auto 0px auto;
+}
+
+#footerImg img{
+    display: block;
+    margin: auto;
+}
+
+
+#footerImg {
+    overflow: visible;
+    height: .1px;
+    background-color: darkgray;
+    border: .5px solid rgb(206, 202, 202);
+    border-collapse: collapse;
+}
+/* button */
+button {
+    border: none;
+    background-color: lightcoral;
+    color: white;
+    text-transform: uppercase;
+    width: 150px;
+    height: 50px;
+    float: right;
 }
 
 a {
