@@ -109,20 +109,28 @@ footer {
 footer div{
     width: 960px;
     margin: 50px auto 0px auto;
+    text-align: center;
 }
 
 #footerImg img{
-    display: block;
-    margin: auto;
+    display: inline-block;
 }
 
+hr {
+    margin-top: 15px;
+    width: 47%;
+    display: inline-block;
+    border: none;
+    border-top: 1px solid;
+    border-color: rgb(211, 209, 209);
+}
 
-#footerImg {
-    overflow: visible;
-    height: .1px;
-    background-color: darkgray;
-    border: .5px solid rgb(206, 202, 202);
-    border-collapse: collapse;
+#righthr {
+    float: right;
+}
+
+#lefthr {
+    float: left;
 }
 /* button */
 button {
