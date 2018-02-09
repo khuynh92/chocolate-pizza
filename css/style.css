@@ -1,22 +1,202 @@
 header {
     height: 100px;
-    background-color: lightgray;
 }
 nav {
     width: 960px;
     margin: 0px auto;
 }
 
+#rightSide, #leftSide, #author, button {
+    display: inline-block;
+}
+h5 {
+    margin-top: 10px;
+}
+/* left side of nav */
+#leftSide img {
+    float: left;
+    margin-right: 10px;
+    margin-top: 2px;
+}
+
+#leftSide {
+    margin-top: 20px;
+    width: 50%;
+}
+
+#leftSide h2 {
+    font-family: 'Yellowtail', cursive;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+#leftSide h4 {
+    font-family: monospace;
+    text-transform: uppercase;
+    color: rgb(126, 124, 124);
+}
+
+/* right side of nav */
+
+#rightSide img {
+    display: inline-block;
+}
+
+#rightSide {
+    margin-top: 35px;
+    float: right;
+}
+
+
+#rss {
+    margin-left: 8px;
+}
+
+/* main article */
+#bar {
+    overflow: hidden;
+    width: 960px;
+    margin: 0px auto 20px auto;
+    font-size: 20px;
+    letter-spacing: 0.01em;
+}
 main {
     width: 960px;
     margin: 0px auto;
 }
 
+main img {
+    width: 960px;
+}
+
+main header h1 {
+    font-family: 'Mukta Mahee', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+main header h5 {
+    text-transform: uppercase;
+    color: rgb(126, 124, 124);
+    font-family: 'Mukta Mahee', sans-serif;
+}
+
+main header span {
+    float: right;
+}
+
+main div p {
+    text-indent: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgb(95, 92, 92);
+}
+
+ /* recipe */
+ table {
+     width: 960px;
+     height: 200px;
+     margin: auto;
+     background-color: rgb(243, 243, 220);
+     font-family: Courier New, Courier, monospace;
+     border-bottom: 1px solid;
+ }
+ 
+ th {
+     width: 15px;
+     border-bottom: 1px solid;
+ }
+
+ .emptyth {
+     border-right: double;
+     border-color: lightcoral;
+     border-bottom-color: black;
+ }
+ .tdbot {
+    border-right: double;
+    border-color: lightcoral;
+    border-bottom-color: rgba(240, 128, 128, 0);
+    padding: 0px;
+    width: 15px;
+}
+ 
+ td {
+     padding-left: 50px;
+     vertical-align: bottom;
+     border-bottom: 1px solid;
+ }
+
+ #recipe {
+     margin-bottom: 30px;
+ }
+
+ table input:checked ~ table {
+     color: white;
+ }
+ 
+/* author */
+#author img {
+    width: 75px;
+    float: left;
+    margin-right: 20px;
+}
+
+#author h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(39, 37, 37);
+}
+
+#author h5 {
+    color: rgb(95, 92, 92);
+}
+/* footer */
 footer {
     height: 100px;
-    background-color: lightgray;
 }
 footer div{
     width: 960px;
-    margin: 0px auto;
+    margin: 50px auto 0px auto;
+    text-align: center;
+}
+
+#footerImg img{
+    display: inline-block;
+}
+
+hr {
+    margin-top: 15px;
+    width: 47%;
+    display: inline-block;
+    border: none;
+    border-top: 1px solid;
+    border-color: rgb(211, 209, 209);
+}
+
+#righthr {
+    float: right;
+}
+
+#lefthr {
+    float: left;
+}
+footer p {
+    margin-top: 5px;
+    font-size: 15px;
+    color: lightgray;
+}
+/* button */
+button {
+    border: none;
+    background-color: lightcoral;
+    color: white;
+    text-transform: uppercase;
+    width: 150px;
+    height: 50px;
+    float: right;
+}
+
+a {
+    text-decoration: none;
 }
