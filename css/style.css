@@ -131,10 +131,10 @@ main div p {
      margin-bottom: 30px;
  }
 
- table input:checked ~ table {
-     color: white;
- }
- 
+input[type=checkbox]:hover {
+    cursor: pointer;
+}
+
 /* author */
 #author img {
     width: 75px;
@@ -200,3 +200,9 @@ button {
 a {
     text-decoration: none;
 }
+
+input[type=checkbox]:checked + span{
+    color: black;
+    text-decoration: line-through;
+ }
+ 
